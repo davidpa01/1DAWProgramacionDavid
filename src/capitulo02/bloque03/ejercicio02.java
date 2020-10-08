@@ -28,9 +28,9 @@ public class ejercicio02 {
 			System.out.println("La raiz de indice " + in1 + " y de radical " + radi1 + " tiene como solución: " + pot);
 			break;
 		case 3:
-		// String var5 = JOptionPane.showInputDialog("Introduce indice de la raiz: ");
+			String var5 = JOptionPane.showInputDialog("Introduce indice de la raiz: ");
 			//int in = Integer.parseInt(var5);
-		// String var6 = JOptionPane.showInputDialog("Introduce el radical de la raiz: ");
+			String var6 = JOptionPane.showInputDialog("Introduce el radical de la raiz: ");
 			//int radi = Integer.parseInt(var6);
 			//double raiz = Math.pow(radi, 1/in);
 			//System.out.println("La raiz de indice " + in + " y de radical " + radi + " tiene como solución: " + raiz);
