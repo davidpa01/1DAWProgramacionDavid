@@ -17,7 +17,7 @@ public class ejercicio02 {
 		int num5 = Integer.parseInt(var5);
 		int conteonumbajos = 0, conteonummedios = 0, conteonumgrandes = 0;
 		int sumabaj = 0, sumamed = 0, sumagrand = 0;
-		if(num1 <= 0 && num2 <= 0 && num3 <= 0 && num4 <= 0 && num5 <= 0) {
+		if(num1 <= 0 || num2 <= 0 || num3 <= 0 || num4 <= 0 || num5 <= 0) {
 			return;
 		}
 		if(0 <= num1 && num1 <= 25) {

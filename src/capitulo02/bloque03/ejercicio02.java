@@ -5,38 +5,46 @@ import javax.swing.JOptionPane;
 public class ejercicio02 {
 
 	public static void main(String[] args) {
-		System.out.println("1-Realizar una raiz");
-		System.out.println("2-Realizar una potencia");
-		System.out.println("3-Realizar el modulo de la división");
-		String var = JOptionPane.showInputDialog("Elija una opción: ");
-		int op = Integer.parseInt(var);
-		switch (op) {
-		case 1:
-			String var1 = JOptionPane.showInputDialog("Introduce indice de la raiz: ");
-			int in = Integer.parseInt(var1);
-			String var2 = JOptionPane.showInputDialog("Introduce el radical de la raiz: ");
-			int radi = Integer.parseInt(var2);
-			double raiz = Math.pow(radi, 1/in);
-			System.out.println("La raiz de indice " + in + " y de radical " + radi + " tiene como solución: " + raiz);
-			break;
-		case 2:
-			String var3 = JOptionPane.showInputDialog("Introduce indice de la raiz: ");
-			int in1 = Integer.parseInt(var3);
-			String var4 = JOptionPane.showInputDialog("Introduce el radical de la raiz: ");
-			int radi1 = Integer.parseInt(var4);
-			double pot = Math.pow(in1 , radi1);
-			System.out.println("La raiz de indice " + in1 + " y de radical " + radi1 + " tiene como solución: " + pot);
-			break;
-		case 3:
-			String var5 = JOptionPane.showInputDialog("Introduce indice de la raiz: ");
-			//int in = Integer.parseInt(var5);
-			String var6 = JOptionPane.showInputDialog("Introduce el radical de la raiz: ");
-			//int radi = Integer.parseInt(var6);
-			//double raiz = Math.pow(radi, 1/in);
-			//System.out.println("La raiz de indice " + in + " y de radical " + radi + " tiene como solución: " + raiz);
-			break;
+		int opcion = -1;
+		while(opcion != 0) {
+			System.out.println("1-Realizar una raiz");
+			System.out.println("2-Realizar una potenciaencia");
+			System.out.println("3-Realizar el modulo de la división");
+			System.out.println("0-Salir");
+			String str = JOptionPane.showInputDialog("Elija una opción: ");
+			opcion = Integer.parseInt(str);
+			switch (opcion) {
+			case 0:
+				break;
+			case 1:
+				String str1 = JOptionPane.showInputDialog("Introduce indice de la raiz: ");
+				double variable1 = Double.parseDouble(str1);
+				String str2 = JOptionPane.showInputDialog("Introduce el radicalcal de la raiz: ");
+				int radical = Integer.parseInt(str2);
+				double indice = 1 / variable1;
+				double raiz = Math.pow(radical, indice);
+				System.out.println("La raiz de indice " + variable1 + " y de radicalcal " + radical + " tiene como solución: " + raiz);
+				break;
+			case 2:
+				String str3 = JOptionPane.showInputDialog("Introduce indice de la potenciaencia: ");
+				int indice1 = Integer.parseInt(str3);
+				String str4 = JOptionPane.showInputDialog("Introduce el radicalcal de la potenciaencia: ");
+				int radical1 = Integer.parseInt(str4);
+				double potencia = Math.pow(indice1 , radical1);
+				System.out.println("La raiz de indice " + indice1 + " y de radicalcal " + radical1 + " tiene como solución: " + potencia);
+				break;
+			case 3:
+				String str5 = JOptionPane.showInputDialog("Introduce la primera variable: ");
+				int indice3 = Integer.parseInt(str5);
+				String str6 = JOptionPane.showInputDialog("Introduce la segunda variable: ");
+				int radical3 = Integer.parseInt(str6);
+				double modulodivision = indice3 % radical3;
+				System.out.println("La raiz de indice " + indice3 + " y de radicalcal " + radical3 + " tiene como solución: " + modulodivision);
+				break;
+			default:
+				System.out.println("Opcón no válida");
 			
-			
+			}
 		}
 	}
 
