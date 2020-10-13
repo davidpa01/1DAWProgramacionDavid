@@ -2,7 +2,7 @@ package capitulo02.bloque03;
 
 import javax.swing.JOptionPane;
 
-public class ejerecicio03 {
+public class ejercicio03 {
 
 	public static void main(String[] args) {
 		int opcion = -1;
