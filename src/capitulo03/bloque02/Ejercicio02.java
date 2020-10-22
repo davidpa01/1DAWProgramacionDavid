@@ -14,12 +14,15 @@ public class Ejercicio02 {
 			int num2 = Integer.parseInt(str2);
 			if (i == 0) {
 				menor = num2;
-			}
-			if (num2 > mayor) {
 				mayor = num2;
 			}
-			if (num2 < menor) {
-				menor = num2;
+			else {
+				if (num2 > mayor) {
+					mayor = num2;
+				}
+				if (num2 < menor) {
+					menor = num2;
+				}
 			}
 		}
 		System.out.println("El número mayor es: " + mayor);
