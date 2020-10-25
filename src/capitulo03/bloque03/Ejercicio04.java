@@ -14,7 +14,7 @@ public class Ejercicio04 {
 				menor = num;
 			}
 			
-		} while (num != 0);
+		} while (num != 0 || menor != 0);
 		System.out.println("El número más pequeño introducido es: " + menor);
 	}
 

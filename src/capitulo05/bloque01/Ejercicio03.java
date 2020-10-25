@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 import metodos.Utiles;
 
-public class ejercicio03 {
+public class Ejercicio03 {
 
 	public static void main(String[] args) {
 		int array[] = new int [150];

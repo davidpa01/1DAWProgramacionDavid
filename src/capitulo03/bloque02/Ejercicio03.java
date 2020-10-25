@@ -5,9 +5,8 @@ import javax.swing.JOptionPane;
 public class Ejercicio03 {
 
 	public static void main(String[] args) {
-		String str = JOptionPane.showInputDialog("Introduzca un número");
-		int num = Integer.parseInt(str);
-		for (int i = 0; i < 101; i+=num) {
+		int num = Integer.parseInt(JOptionPane.showInputDialog("Introduzca un número"));// se pide un numero
+		for (int i = 0; i < 101; i+=num) {// se crea un bucle para calcular los multiplos del numeroS
 			System.out.println("Multiplos de " + num + " : " + i);
 		}
 	}

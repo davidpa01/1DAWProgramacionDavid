@@ -5,12 +5,10 @@ import javax.swing.JOptionPane;
 public class Ejercicio04 {
 
 	public static void main(String[] args) {
-		String str = JOptionPane.showInputDialog("Introduzca un número");
-		int num = Integer.parseInt(str);
-		String str2 = JOptionPane.showInputDialog("Introduzca un número");
-		int lim = Integer.parseInt(str2);
-		for (int i = 0; i <= lim; i+=num) {
-			System.out.println("Multiplos de " + num + " : " + i);
+		int num = Integer.parseInt(JOptionPane.showInputDialog("Introduzca un número"));//Se pide un numero
+		int lim = Integer.parseInt(JOptionPane.showInputDialog("Introduzca un número"));
+		for (int i = 0; i <= lim; i+=num) {// se crea un bucle en el que i = o y se repite mientra que i sea menor que el limite y avavza sumando por el numero
+			System.out.println("Multiplos de " + num + " : " + i);// se muestra los multiplos del numero
 		}
 
 	}

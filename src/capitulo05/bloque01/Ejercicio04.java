@@ -2,7 +2,7 @@ package capitulo05.bloque01;
 
 import metodos.Utiles;
 
-public class ejercicio04 {
+public class Ejercicio04 {
 
 	public static void main(String[] args) {
 		int array[] = new int [150];

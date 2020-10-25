@@ -11,6 +11,7 @@ public class Ejercicio00 {
 		
 		for (int i = 0; i < array.length; i++) {
 			array[i] = Utiles.obtenerNumeroAzar();
+			System.out.println(array[i]);
 			suma += array[i];
 		}
 
