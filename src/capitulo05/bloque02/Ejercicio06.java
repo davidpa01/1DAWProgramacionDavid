@@ -6,7 +6,7 @@ import metodos.Utiles;
 
 public class Ejercicio06 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		int array[] = new int [5];//se declara un array
 		int aux;
 		System.out.println("1- Mover array a la izquerda");
