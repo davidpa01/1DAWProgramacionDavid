@@ -4,7 +4,7 @@ import metodos.Utiles;
 
 public class Ejercicio04 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		int array[] = new int [5];//se declara el array
 		int aux;
 		for (int i = 0; i < array.length; i++) {//se crea un bucle que se repite mientras la i sea menor que la longitud del array

@@ -4,7 +4,7 @@ import metodos.Utiles;
 
 public class Ejercicio00 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		int array[] = new int [150]; //se declara el array
 		int suma = 0, mayor = 0, menor = 0; 
 		float media = 0;

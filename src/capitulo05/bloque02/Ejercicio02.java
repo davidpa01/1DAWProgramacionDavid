@@ -4,7 +4,7 @@ import metodos.Utiles;
 
 public class Ejercicio02 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		//se declaran tres array
 		int array0[] = new int [150];
 		int array1[] = new int [150];

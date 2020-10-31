@@ -6,7 +6,7 @@ import metodos.Utiles;
 
 public class Ejercicio03 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		int array[] = new int [150];//se declara el array
 		int num = Integer.parseInt(JOptionPane.showInputDialog("Introduce un número"));//se pide un numero
 		boolean esta = false;

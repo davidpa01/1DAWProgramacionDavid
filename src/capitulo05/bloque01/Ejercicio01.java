@@ -6,7 +6,7 @@ import metodos.Utiles;
 
 public class Ejercicio01 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		int array[] = new int [150];//se declera el array
 		//se pide un limite superior y uno inferior
 		int liminf = Integer.parseInt(JOptionPane.showInputDialog("Introduce un limite inferior"));
