@@ -12,7 +12,7 @@ public class Ejerciciometodos {
 		
 //		segundo
 		
-//		System.out.println("El maximo es 50 el minimo es 1 y tu numero es " + obtenerNumeroDeUsuarioEntreMinimoYMaxim(1, 50));
+		System.out.println("El maximo es 50 el minimo es 1 y tu numero es " + obtenerNumeroDeUsuarioEntreMinimoYMaxim(1, 50));
 		
 //		tercero
 		
