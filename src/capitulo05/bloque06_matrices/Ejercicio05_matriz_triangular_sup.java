@@ -13,7 +13,11 @@ public class Ejercicio05_matriz_triangular_sup {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		int matriz[][] = new int [5][5];
+		int matriz[][] = new int [][] { {1,0,0,0,0},
+										{0,1,1,1,1},
+										{0,0,2,2,2},
+										{0,0,0,3,3},
+										{0,0,0,0,4}};
 //		Ejercicio01_rellenar_matriz.rellenarMatriz(matriz);
 		boolean triangulo = matrizTriangularSup(matriz);
 		if (triangulo == true) {
@@ -29,6 +33,7 @@ public class Ejercicio05_matriz_triangular_sup {
 	/**
 	 * 
 	 * @param matriz
+	 * @return
 	 */
 	public static boolean matrizTriangularSup(int matriz[][]) {
 		for (int i = 0; i < matriz.length; i++) { 

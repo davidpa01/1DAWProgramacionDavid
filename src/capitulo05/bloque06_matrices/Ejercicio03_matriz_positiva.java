@@ -11,7 +11,11 @@ public class Ejercicio03_matriz_positiva {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		int matriz[][] = new int [5][5];
+		int matriz[][] = new int [][] { {0,0,0,0,0},
+										{1,1,1,1,1},
+										{2,2,2,2,2},
+										{3,3,3,3,3},
+										{4,4,4,4,4}};
 		Ejercicio01_rellenar_matriz.rellenarMatriz(matriz);
 		boolean positivo = matrizPositiva(matriz);
 		if (positivo == true) {
