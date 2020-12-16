@@ -146,17 +146,29 @@ public class CampoBatalla {
 									+ marcianos[marcianos.length-1].getCdH());
 			}
 		}
-		int cont = 0;
-//		for (int i = 0; i < ejercito.length; i++) {
-//			if (ejercito[i] )
-//		}
-		if (ejercito[0].getCdM() < marcianos[0].getCdH()) {
-			System.out.println(ejercito[0] + " Es el que menos disparos ha necesitado disparos = " + ejercito[0].getCdM());
-		}else {
-			if (ejercito[0].getCdM() > marcianos[0].getCdH()) {
-				System.out.println(marcianos[0] + " Es el que menos disparos ha necesitado disparos = " + marcianos[0].getCdH());
+		int contH = 0;
+		int contM = 0;
+		for (int i = 0; i < ejercito.length; i++) {
+			if (ejercito[i].getCdM() == 0) {
+				contH++;
 			}else {
-				System.out.println(marcianos[0] + " y " + ejercito[0] + " Son los que menos disparos ha necesitado disparos = " + marcianos[0].getCdH());
+				break;
+			}
+		}
+		for (int i = 0; i < marcianos.length; i++) {
+			if (marcianos[i].getCdH() == 0) {
+				contM++;
+			}else {
+				break;
+			}
+		}
+		if (ejercito[contH].getCdM() < marcianos[contM].getCdH()) {
+			System.out.println(ejercito[contH] + " Es el que menos disparos ha necesitado disparos = " + ejercito[contH].getCdM());
+		}else {
+			if (ejercito[contH].getCdM() > marcianos[contM].getCdH()) {
+				System.out.println(marcianos[contM] + " Es el que menos disparos ha necesitado disparos = " + marcianos[contM].getCdH());
+			}else {
+				System.out.println(marcianos[contM] + " y " + ejercito[contH] + " Son los que menos disparos ha necesitado disparos = " + marcianos[contM].getCdH());
 			}
 		}
 	}
