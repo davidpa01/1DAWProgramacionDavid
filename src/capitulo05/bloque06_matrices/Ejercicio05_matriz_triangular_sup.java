@@ -36,9 +36,9 @@ public class Ejercicio05_matriz_triangular_sup {
 	 * @return
 	 */
 	public static boolean matrizTriangularSup(int matriz[][]) {
-		for (int i = 0; i < matriz.length; i++) { 
+		for (int i = 1; i < matriz.length; i++) { 
 			for (int j = 0; j < matriz[i].length; j++) { 
-				if (i >= 1 && j < i){
+				if (j < i){
 					if (matriz[i][j] != 0) {
 						 return false;									
 					}

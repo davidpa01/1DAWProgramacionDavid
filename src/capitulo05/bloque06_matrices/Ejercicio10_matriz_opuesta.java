@@ -36,11 +36,10 @@ public class Ejercicio10_matriz_opuesta {
 	public static int[][] matrizOpuesta(int matriz[][]) {
 		int opuesta[][] = new int [matriz[0].length][matriz.length];
 		for (int i = 0; i < matriz.length; i++) {
-			for (int j = 0; j < matriz.length; j++) {
+			for (int j = 0; j < matriz[i].length; j++) {
 				opuesta[i][j] = -matriz[i][j];
 			}
 		}
-		
 		return opuesta;
 	}
 
