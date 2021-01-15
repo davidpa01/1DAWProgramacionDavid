@@ -2,9 +2,6 @@ package capitulo04.Simulación_de_examen_SpaceInvaders;
 
 import java.util.Arrays;
 
-import org.omg.CORBA.PUBLIC_MEMBER;
-
-import capitulo04.simulación_de_examen_Opcional.Carta;
 import metodos.Utiles;
 
 public class CampoBatalla {
@@ -72,6 +69,9 @@ public class CampoBatalla {
 				malvado.setCdH(cdH);
 				cdH = 0;
 			}
+			
+			humano = primerHumanoVivo();
+			malvado = primerMalvadoVivo();
 			
 			humano.setPuntosVida(humano.getPuntosVida() - Utiles.obtenerNumeroAzarEntreLimites(5, 25));
 			cdM++;
