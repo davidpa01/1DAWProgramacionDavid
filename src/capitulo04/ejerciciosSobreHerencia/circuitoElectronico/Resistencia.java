@@ -19,8 +19,8 @@ public class Resistencia extends Componente {
 
 	@Override
 	public String toString() {
-		return "Resistencia [ohmios=" + ohmios + ", nombre=" + nombre + ", componenteAnt=" + componenteAnt
-				+ ", componentePost=" + componentePost + "]";
+		return "Resistencia [ohmios=" + ohmios + ", nombre=" + nombre + ", componenteAnt=" + componenteAnt.getNombre()
+				+ ", componentePost=" + componentePost.getNombre() + "]";
 	}
 
 	public int getOhmios() {

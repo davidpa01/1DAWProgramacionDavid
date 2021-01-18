@@ -25,8 +25,8 @@ public class Componente {
 
 	@Override
 	public String toString() {
-		return "Componente [nombre=" + nombre + ", componenteAnt=" + componenteAnt + ", componentePost="
-				+ componentePost + "]";
+		return "Componente [nombre=" + nombre + ", componenteAnt=" + componenteAnt.getNombre() + ", componentePost="
+				+ componentePost.getNombre() + "]";
 	}
 
 

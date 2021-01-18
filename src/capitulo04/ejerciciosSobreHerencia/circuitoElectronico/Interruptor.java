@@ -23,8 +23,8 @@ public class Interruptor extends Componente {
 
 	@Override
 	public String toString() {
-		return "Interruptor [posicion=" + posicion + ", nombre=" + nombre + ", componenteAnt=" + componenteAnt
-				+ ", componentePost=" + componentePost + "]";
+		return "Interruptor [posicion=" + posicion + ", nombre=" + nombre + ", componenteAnt=" + componenteAnt.getNombre()
+				+ ", componentePost=" + componentePost.getNombre() + "]";
 	}
 
 

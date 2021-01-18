@@ -23,8 +23,8 @@ public class Led extends Componente {
 
 	@Override
 	public String toString() {
-		return "Led [color=" + color + ", nombre=" + nombre + ", componenteAnt=" + componenteAnt + ", componentePost="
-				+ componentePost + "]";
+		return "Led [color=" + color + ", nombre=" + nombre + ", componenteAnt=" + componenteAnt.getNombre() + ", componentePost="
+				+ componentePost.getNombre() + "]";
 	}
 
 

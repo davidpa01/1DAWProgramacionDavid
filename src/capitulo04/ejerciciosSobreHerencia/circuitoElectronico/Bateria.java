@@ -24,8 +24,8 @@ public class Bateria extends Componente {
 
 	@Override
 	public String toString() {
-		return "Bateria [voltio=" + voltio + ", nombre=" + nombre + ", componenteAnt=" + componenteAnt
-				+ ", componentePost=" + componentePost + "]";
+		return "Bateria [voltio=" + voltio + ", nombre=" + nombre + ", componenteAnt=" + componenteAnt.getNombre()
+				+ ", componentePost=" + componentePost.getNombre() + "]";
 	}
 
 
