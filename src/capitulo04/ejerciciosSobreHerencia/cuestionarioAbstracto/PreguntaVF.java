@@ -2,7 +2,7 @@ package capitulo04.ejerciciosSobreHerencia.cuestionarioAbstracto;
 
 public class PreguntaVF extends Pregunta {
 	
-	
+	private String respuesta = "";
 
 	
 	public PreguntaVF() {
@@ -10,8 +10,9 @@ public class PreguntaVF extends Pregunta {
 		// TODO Auto-generated constructor stub
 	}
 
-	public PreguntaVF(String enuciado, String respuesta) {
-		super(enuciado, respuesta);
+	public PreguntaVF(String enuciado, int numero, String respuesta) {
+		super(enuciado, numero);
+		this.respuesta = respuesta;
 	}
 
 	@Override
@@ -24,7 +25,7 @@ public class PreguntaVF extends Pregunta {
 	@Override
 	public void mostrar() {
 		System.out.println("Pregunta de verdadero y falso.");
-		System.out.println(enuciado + "\n\tV" + "\n\tF");
+		System.out.println(numero + " " + enuciado + "\n\tV" + "\n\tF");
 	}
 
 	@Override

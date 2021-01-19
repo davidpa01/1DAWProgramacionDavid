@@ -3,7 +3,7 @@ package capitulo04.ejerciciosSobreHerencia.cuestionarioAbstracto;
 public abstract class Pregunta {
 	
 	protected String enuciado = "";
-	protected String respuesta = "";
+	protected int numero;
 	
 	
 	
@@ -12,17 +12,12 @@ public abstract class Pregunta {
 	}
 
 
-	public Pregunta(String enuciado, String respuesta) {
+	public Pregunta(String enuciado, int numero) {
 		super();
 		this.enuciado = enuciado;
-		this.respuesta = respuesta;
+		this.numero = numero;
 	}
 
-
-//	@Override
-//	public String toString() {
-//		return "Pregunta [enuciado=" + enuciado + ", numero=" + respuesta + "]";
-//	}
 
 
 	public String getEnuciado() {
@@ -35,13 +30,13 @@ public abstract class Pregunta {
 	}
 
 
-	public String getRespuesta() {
-		return respuesta;
+	public int getNumero() {
+		return numero;
 	}
 
 
-	public void setRespuesta(String respuesta) {
-		this.respuesta = respuesta;
+	public void setNumero(int numero) {
+		this.numero = numero;
 	}
 	
 	public abstract boolean esCorrecta(String respuestaEsperada);
