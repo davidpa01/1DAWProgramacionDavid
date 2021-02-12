@@ -37,10 +37,10 @@ public class String_a_Date {
 
 	public static void main(String[] args) {
 
-//		strToDate();
-//		strToCalendar();
-		//sumaYresta();
-		//enLineaCalendar();
+		strToDate();
+		strToCalendar();
+		sumaYresta();
+		enLineaCalendar();
 		enLineaDate();
 		
 	
