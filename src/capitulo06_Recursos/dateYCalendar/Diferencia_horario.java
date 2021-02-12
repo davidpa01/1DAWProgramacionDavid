@@ -1,4 +1,7 @@
 package capitulo06_Recursos.dateYCalendar;
+/**
+ * 2º.- Obtén la hora actual en Roma (Italia), también la hora actual en Sidney (Australia) y calcula la diferencia horaria entre las dos ciudades.
+ */
 
 import java.util.Calendar;
 import java.util.TimeZone;
