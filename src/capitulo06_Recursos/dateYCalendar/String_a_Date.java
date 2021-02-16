@@ -43,9 +43,6 @@ public class String_a_Date {
 		enLineaCalendar();
 		enLineaDate();
 		
-	
-		
-		
 	}
 	
 	
