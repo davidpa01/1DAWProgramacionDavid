@@ -34,7 +34,7 @@ public class Concesionario {
 
 	@Override
 	public String toString() {
-		return this.nombre;
+		return this.nombre + ", " + this.localidad + " " + this.cif;
 	}
 
 

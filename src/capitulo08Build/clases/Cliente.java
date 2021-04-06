@@ -45,7 +45,7 @@ public class Cliente {
 
 	@Override
 	public String toString() {
-		return this.nombre;
+		return this.apellido + ", " + this.nombre + ", " + this.dniNIe;
 	}
 
 
