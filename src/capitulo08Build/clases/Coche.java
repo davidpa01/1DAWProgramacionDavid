@@ -39,7 +39,7 @@ public class Coche {
 
 	@Override
 	public String toString() {
-		return "" + this.id;
+		return this.modelo;
 	}
 
 
