@@ -110,6 +110,12 @@ public class ControladorCliente {
 	}
 	
 	
+	
+	/**
+	 * 
+	 * @param idActual
+	 * @return
+	 */
 	public Cliente findAnterior (int idActual) {
 		Cliente c = null;
 
